@@ -1,0 +1,46 @@
+Event Calendar is a ASP.NET Web Application(.NET Framework) made using MVC template, bootstrap library, SQL database,
+Entity Framework (uses the ADO.NET Entity Data Model), jQuery, Css and HTML.
+
+To Run the application you are going to need Visual Studio.
+
+Step 1 : Open the Solution from the main directory (MVCEventCalendar.sln) using Visual Stuido
+
+Step 2 : Click on the Run button or press F5 on your keyboard to start the application
+
+Step 3 : Use the Calendar UI to set up your upcoming events or register events that have already passed (If you want to create a second event
+in the same day just click on the white part of the day on the Calendar UI or change the start day on the form manualy)
+
+	Step 3.1 : To add a new event click on the day you want the event to take place 
+		- Start date is automaticaly inputed for the day you selected but can be manually changed to your preferred date
+		- You can drag trought the calendar days if you want to select multiple days or change is manually from the End Date textfield
+
+	Step 3.2 : Fill out the Save Event Form
+		- Name : This is going to be the Title for your Event
+		- Location : The location where the Event will take place
+		- Start : The date and time regarding the start of the Event
+		- Is Full Day event : Notes is the event will be for the full day (If checked the End textfield will be removed)
+		- End : The date and time regarding the end of the Event (only shows if the "Is Full Day event" checkbox is unchecked)
+		- Description : Additional data regarding the Event (Not required)
+		- Theme Color : The Color in which this Event will be shown in your Calendar
+		- Name, Location, Start,End/Is Full Day event fields are required you will not be able to Save the event if they are not
+		inputed, or are inputed incorrectly (End date being before Start date)
+
+	Step 3.3 : Click on save button to add this Event to your Calendar
+
+Step 4 : To edit an Event select it in the Calendar UI, click on the "Edit" button and you will be presented with a form 
+in which you can change the details (Step 3.2 for defenitions of the fields)
+	Step 4.1 : You can change the date of the Event by draging it trought the Calendar UI
+
+Step 5 : To remove an Event select it in the Calendar UI, click on the "Remove" button, and select "Yes" on the "Are you sure?" prompt
+
+Step 6 : Navigation trought the UI 
+	- On the upper right corner you can change the scale in which you view the Calendar (By month, week,day or hour by hour)
+	- On the upper left corner you can use the left and right arrows to change the dates (depends on the scale you view it on)
+	and if you wish to go back to the current day you can select the "Today" button
+	- You can refresh the page by clicking on the "Event Manager" link in the upper left corner of the page
+
+
+
+
+
+ 
